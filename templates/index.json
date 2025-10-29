@@ -9,51 +9,92 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "design_pack_slideshow_86PFik": {
+      "type": "design_pack_-_slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide_XiCQbQ": {
+          "type": "slide",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "background_image": "shopify://shop_images/black_on_tri_tip_application.jpg",
+            "mobile_background_image": "shopify://shop_images/black_on_tri_tip_application_a79e4800-0178-405a-beae-48541ee6a268.jpg",
+            "preheading": "",
+            "title": "New Product Arrival!",
+            "text": "<p>Sizzling straight from Texas, Hardcore Carnivore Seasoning is now available to elevate your grilling game to bold new heights!</p>",
+            "button_label": "Explore more",
+            "link": "",
+            "text_alignment": "center",
+            "text_position": "center bottom",
+            "text_width": 600,
+            "text_color": "#f5e8d3",
+            "text_background_color": "",
+            "button_label_color": "#f5e8d3",
+            "button_background_color": "#c1272d",
+            "background_color": "radial-gradient(rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%)"
           }
         },
-        "text": {
-          "type": "text",
+        "slide_47BWjE": {
+          "type": "slide",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "preheading": "Fully responsive",
+            "title": "Use different images on desktop vs mobile",
+            "text": "<p>Switch things up depending on the device!</p>",
+            "button_label": "Learn more",
+            "link": "",
+            "text_alignment": "center",
+            "text_position": "right center",
+            "text_width": 600,
+            "text_color": "#000000",
+            "text_background_color": "",
+            "button_label_color": "#FFFFFF",
+            "button_background_color": "#283144",
+            "background_color": "radial-gradient(rgba(255, 255, 255, 0.4) 100%, rgba(255, 255, 255, 0.4) 100%)"
           }
         },
-        "button": {
-          "type": "buttons",
+        "slide_fGKdzh": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "preheading": "Small Text",
+            "title": "New Slide",
+            "text": "",
+            "button_label": "Learn more",
+            "link": "",
+            "text_alignment": "left",
+            "text_position": "left center",
+            "text_width": 600,
+            "text_color": "#FFFFFF",
+            "text_background_color": "",
+            "button_label_color": "#FFFFFF",
+            "button_background_color": "#283144",
+            "background_color": "radial-gradient(rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%)"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "slide_XiCQbQ",
+        "slide_47BWjE",
+        "slide_fGKdzh"
       ],
+      "name": "Slideshow - simple 🎒",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "image_crop": "1200:600",
+        "slider_animation": "slide",
+        "show_arrows": true,
+        "show_dots": true,
+        "autoplay": 8,
+        "show_mobile_arrows": false,
+        "show_mobile_dots": true,
+        "text_size": 100,
+        "button_radius": 0,
+        "max_width": "",
+        "max_base_width": "",
+        "outer_margin_top": 0,
+        "outer_margin_bottom": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "system_ui_n4"
       }
     },
     "rich_text": {
@@ -222,7 +263,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "design_pack_slideshow_86PFik",
     "rich_text",
     "featured_collection",
     "collage",
