@@ -404,13 +404,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      "/* Round Product Images in Collection Grid */.card__media img {border-radius: 15px; /* Adjust to your desired roundness */ overflow: hidden;}",
-      " /* Round Product Images on Product Page */.product__media img {border-radius: 15px; /* Adjust to your preference */ overflow: hidden;}",
-      " /* Optional: Round Hover Effects */.card-wrapper {border-radius: 15px; overflow: hidden;}",
-      " /* ✅ Round Cart Page Images */.cart__item img,.cart-item__image img,.cart__item-image img,.cart-item__image-container img {border-radius: 15px !important; overflow: hidden; object-fit: cover;}",
-      " /* ✅ Round Drawer Cart Images */.cart-drawer__item img,.cart-drawer-item img,.drawer__cart-item img,.ajax-cart__item img,.cart-popup-item__image img,.drawer__cart-image img,.cart__image img,.cart-drawer__product-image img,.mini-cart__image img {border-radius: 15px !important; overflow: hidden; object-fit: cover; width: 100%; height: auto; max-width: 100%;}",
-      " /* ✅ Force Drawer Cart Image Wrapping */.cart-drawer__item,.cart-drawer-item,.drawer__cart-item,.ajax-cart__item {overflow: hidden; border-radius: 15px !important;}"
-    ]
+    "custom_css": []
   }
 }
