@@ -43,10 +43,10 @@
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "scheme-2",
+    "card_color_scheme": "scheme-9d7a6b77-bd43-439e-bebf-f678336a9062",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
-    "card_corner_radius": 0,
+    "card_corner_radius": 28,
     "card_shadow_opacity": 0,
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
@@ -57,7 +57,7 @@
     "collection_card_color_scheme": "scheme-2",
     "collection_card_border_thickness": 0,
     "collection_card_border_opacity": 10,
-    "collection_card_corner_radius": 0,
+    "collection_card_corner_radius": 28,
     "collection_card_shadow_opacity": 0,
     "collection_card_shadow_horizontal_offset": 0,
     "collection_card_shadow_vertical_offset": 4,
@@ -116,11 +116,11 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
-    "cart_type": "notification",
+    "currency_code_enabled": false,
+    "cart_type": "page",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "",
+    "cart_drawer_collection": "beef-bundles",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -194,13 +194,13 @@
       },
       "scheme-9d7a6b77-bd43-439e-bebf-f678336a9062": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#6b5436",
           "background_gradient": "",
-          "text": "#6b5436",
+          "text": "#f5e8d3",
           "button": "#6b5436",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "secondary_button_label": "#f5e8d3",
+          "shadow": "#f5e8d3"
         }
       }
     }
