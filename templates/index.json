@@ -21,7 +21,7 @@
             "title": "New Product Arrival!",
             "text": "<p>Sizzling straight from Texas, Hardcore Carnivore Seasoning is now available to elevate your grilling game to bold new heights!</p>",
             "button_label": "Explore more",
-            "link": "",
+            "link": "shopify://collections/seasonings",
             "text_alignment": "center",
             "text_position": "center bottom",
             "text_width": 600,
